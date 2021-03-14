@@ -1,7 +1,7 @@
 
 /* стили для типов полей */
 h1 {background-color: cornsilk;}
-p {color:yellow;}
+p {color:orange;}
 input[type="text"] {color: blue;}
 
 /* стили для селекторов */
@@ -34,4 +34,12 @@ input[type="text"] {color: blue;}
 }
 .h1-auth {border: 1px solid black;}
 
+
+/* стили шрифта */
+.h2-heading {font-family: sans-serif;}
+.list-product-h1 {text-align: center;}
+.list-pruduction-li-transform {text-decoration: line-through;}
+
+/* стили списков */
+.list-product-ul { list-style-type: none;}
 
