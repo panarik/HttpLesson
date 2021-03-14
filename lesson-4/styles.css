@@ -29,3 +29,64 @@
         clear: both;
 }
 .text-red { color: red;}
+.menu-link:hover {color: red;}
+.menu-link:active {color: green;}
+.menu-list {
+        list-style-type: none;
+        border: 1px solid #000;
+        width: 200px;
+        height: 35px;
+        line-height: 35px;
+        text-align: center;
+}
+.menu-list:first-child {
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+}
+
+.menu-list:last-child {
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+}
+.menu-list:hover .menu-link{
+        text-decoration: none;
+}
+
+.menu-item-new:after {
+        content: ' new!!';
+        color: red;
+}
+
+.menu-item:before {
+        content: '* ';
+        color: orange;
+}
+
+.menu-item:nth-child(3):after {
+        content: ' trird!';
+        color: green;
+}
+
+.menu2-item:hover::after {
+        content: ' <<<<';
+}
+
+.product {
+        width: 250px;
+        border: 1px solid #000;
+}
+.product_image {
+        height: 150px;
+        background-color: forestgreen;
+}
+
+.product_new::after {
+        content: 'new';
+        color: red;
+        text-transform: uppercase;
+}
+
+.text::first-letter {
+        color: red;
+        font-size: 24px;
+}
