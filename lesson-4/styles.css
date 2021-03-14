@@ -1,0 +1,31 @@
+* {
+        margin: 0;
+        padding: 0;
+}
+
+.header { background-color: #ccc; }
+.content {
+        border: 1px solid black;
+        width: 350px;
+        height: 200px;
+        margin-left: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 16px;
+        box-sizing: border-box; /* фиксируем размеры с учетом размеров блока */
+}
+.block {
+        height: 150px;
+        width: 150px;
+        border: 1px solid #000;
+        float: left;
+}
+.h1 {
+        border: 1px solid red;
+        overflow: hidden;
+}
+.footer {
+        background-color: gray;
+        clear: both;
+}
+.text-red { color: red;}
